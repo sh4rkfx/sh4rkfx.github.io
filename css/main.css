@@ -6,11 +6,10 @@
     background-image: url(../img/mockup.jpg);
 }
 
-.heading {
-    @include float-right;
+#heading {
 }
 
-.sub-heading {
-    @include float-right;
+#sub-heading {
+    clear: right;
     margin-top: -0.5rem;
 }
