@@ -1,0 +1,18 @@
+@media screen and (max-device-width: 770px) {
+    #logo {
+        max-width: 16rem;
+        margin-bottom: 1rem;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 1.5rem;
+        text-align: left
+    }
+}
+
+@media screen and (max-device-width: 390px) {
+    header h3 {
+        float: left;
+    }
+}
