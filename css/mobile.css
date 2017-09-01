@@ -1,13 +1,12 @@
-@media screen and (max-device-width: 770px) {
+@media screen and (max-device-width: 780px) {
     #logo {
-        max-width: 16rem;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
 
     nav li {
         display: block;
         margin-bottom: 1.5rem;
-        text-align: left
+        text-align: left;
     }
 }
 

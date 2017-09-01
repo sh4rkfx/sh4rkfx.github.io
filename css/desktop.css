@@ -6,6 +6,16 @@ html {
   line-height: 1.15;
 }
 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+
 *,
 *::before,
 *::after {
@@ -178,6 +188,7 @@ body {
 }
 
 .container {
+    display: block;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -194,7 +205,7 @@ body {
     display: table;
 }
 
-nav, section#showcase, section#recent, footer {
+nav, #showcase, #recent, footer {
     margin-top: 3rem;
 }
 
@@ -205,11 +216,10 @@ header {
     color: #fff;
     border-radius: 0 0 1.25rem 1.25rem;
     padding: 1rem;
-    display: inline-block;
 }
 
 #logo {
-    max-width: 24rem;
+    width: 20rem;
     transform: rotate(15deg);
     float: left;
 }
@@ -246,12 +256,12 @@ nav a:hover {
 
 /*** Main ***/
 /************/
-section#recent .wrapper {
+#recent .wrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
-section#recent article {
+#recent article {
     margin-top: 1rem;
     margin-right: 1rem;
     padding: 0.5rem;
@@ -287,7 +297,7 @@ footer a {
     color: #fff;
 }
 
-footer div#legal a {
+#legal a {
     border-bottom: 0.25rem solid #00FF4F;
 }
 
